@@ -1,59 +1,51 @@
-<header>
+Shinhan Bank Consumer Loan Webpage
+This project is the front-end for the Shinhan Bank consumer loan webpage, providing information about consumer loans with features like multilingual support, lazy loading, and a service worker for offline access.
+Features
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Consumer Loan Details: Information on loan benefits, required documents, and application process.
+Multilingual Support: Vietnamese and English translations.
+Offline Support: Service worker for caching assets.
+Responsive Design: Mobile and desktop navigation.
+Interactive Elements: Newsletter subscription, chat widget (AntBuddy), and modal popups.
 
-# GitHub Pages
+Prerequisites
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+Node.js (v16+ recommended)
+npm (v8+ recommended)
 
-</header>
+Installation
 
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
--->
+Clone the repository:git clone https://github.com/your-username/shinhan-bank-web.git
 
-## Step 2: Configure your site
 
-_You turned on GitHub Pages! :tada:_
+Navigate to the project directory:cd shinhan-bank-web
 
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
 
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
+Install dependencies:npm install
 
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
 
-### :keyboard: Activity: Configure your site
 
-1. Browse to the `_config.yml` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-   ```yml
-   theme: minima
-   ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+Usage
 
-<footer>
+Development: Start the development server with hot reloading.npm start
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
 
----
+Production: Build the optimized assets.npm run build
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Access: Open http://localhost:8080 (default) in your browser to view the webpage.
 
-</footer>
+Project Structure
+
+index.html: Main HTML file (consumer loan page).
+public/: Static assets (images, CSS, JS).
+src/: Source code (JavaScript, CSS, translations).
+service-worker.js: Service worker for offline support.
+translations.json: Multilingual translations.
+
+Contributing
+See CONTRIBUTING.md for guidelines on how to contribute.
+License
+This project is licensed under the ISC License. See LICENSE for details.
+Contact
+For support, contact Shinhan Bank at shinhanvietnam@shinhan.com or call 1900 1577.
